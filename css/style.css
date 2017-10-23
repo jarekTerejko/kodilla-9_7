@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin-ext');
+
 body {
-    background-color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+h3 {
+    margin: 0;
 }
 
 .container {
-    padding: 20px 0;
+    padding: 30px 0;
+}
+
+.game-container {
+    height: 100vh;
+    background-image: url(/images/bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
 }
